@@ -22,3 +22,9 @@ C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFramework
 C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
 C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
 C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\InsumosApi\Domain.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\InsumosApi\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb

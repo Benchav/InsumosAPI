@@ -1,6 +1,7 @@
 ﻿using Domain.Endpoint.Interfaces.Repositories;
 using Infrastructure.Endpoint.Data;
 using Infrastructure.Endpoint.Data.Repositories;
+using Infrastructure.Endpoint.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Infrastructure.Endpoint.Extensions
@@ -15,6 +16,7 @@ namespace Infrastructure.Endpoint.Extensions
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<ICatProductoRepository, CatProductoRepository>();
             services.AddScoped<IProductoRepository, ProductoRepository>();
+            //services.AddScoped<IEntitiesService, EntitiesService>();
             services.AddSingleton<ISqlDbConnection>(SqlDbConnection.GetInstance());
             return services;
         }
