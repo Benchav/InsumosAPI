@@ -1,0 +1,57 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Iniciado : mi‚rcoles, 22 de noviembre de 2023 17:33:16
+   Origen : C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\bin\
+     Destino : C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\App_Data\NuGetBackup\20231122-173315\bin\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\bin\
+	   Nuevo dir      25	C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\bin\Debug\
+	    Nuevo arch		    4096	Application.Endpoint.dll100%  
+	    Nuevo arch		   15872	Application.Endpoint.pdb100%  
+	    Nuevo arch		   14336	Domain.Endpoint.dll100%  
+	    Nuevo arch		   93696	Domain.Endpoint.pdb100%  
+	    Nuevo arch		   39424	Infrastructure.Endpoint.dll100%  
+	    Nuevo arch		     453	Infrastructure.Endpoint.dll.config100%  
+	    Nuevo arch		   97792	Infrastructure.Endpoint.pdb100%  
+	    Nuevo arch		   26752	Microsoft.Bcl.AsyncInterfaces.dll100%  
+	    Nuevo arch		   29813	Microsoft.Bcl.AsyncInterfaces.xml100%  
+	    Nuevo arch		   48256	Microsoft.Extensions.DependencyInjection.Abstractions.dll100%  
+	    Nuevo arch		  116892	Microsoft.Extensions.DependencyInjection.Abstractions.xml100%  
+	    Nuevo arch		   91264	System.Configuration.ConfigurationManager.dll100%  
+	    Nuevo arch		   49034	System.Configuration.ConfigurationManager.xml100%  
+	    Nuevo arch		  223680	System.Data.SqlClient.dll 58%  100%  
+	    Nuevo arch		  443388	System.Data.SqlClient.xml 29%   59%   88%  100%  
+	    Nuevo arch		   18024	System.Runtime.CompilerServices.Unsafe.dll100%  
+	    Nuevo arch		   20529	System.Runtime.CompilerServices.Unsafe.xml100%  
+	    Nuevo arch		   35952	System.Security.AccessControl.dll100%  
+	    Nuevo arch		  231631	System.Security.AccessControl.xml 56%  100%  
+	    Nuevo arch		   30328	System.Security.Permissions.dll100%  
+	    Nuevo arch		    8987	System.Security.Permissions.xml100%  
+	    Nuevo arch		   18312	System.Security.Principal.Windows.dll100%  
+	    Nuevo arch		   90968	System.Security.Principal.Windows.xml100%  
+	    Nuevo arch		   25984	System.Threading.Tasks.Extensions.dll100%  
+	    Nuevo arch		   10147	System.Threading.Tasks.Extensions.xml100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\bin\Release\
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:         3         2         1         0         0         0
+ Archivos:        25        25         0         0         0         0
+    Bytes:    1.70 m    1.70 m         0         0         0         0
+   Tiempo:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Velocidad:           19,200,107 Bytes/s
+Velocidad:            1,098.639 Megabytes/min
+   Finalizado: mi‚rcoles, 22 de noviembre de 2023 17:33:16
+

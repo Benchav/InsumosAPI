@@ -1,0 +1,26 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Iniciado : mi‚rcoles, 22 de noviembre de 2023 17:33:30
+   Origen : C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\Umbraco_Client\
+     Destino : C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\App_Data\NuGetBackup\20231122-173326\Umbraco_Client\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\Umbraco_Client\
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:         1         0         1         0         0         0
+ Archivos:         0         0         0         0         0         0
+    Bytes:         0         0         0         0         0         0
+   Tiempo:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finalizado: mi‚rcoles, 22 de noviembre de 2023 17:33:30
+

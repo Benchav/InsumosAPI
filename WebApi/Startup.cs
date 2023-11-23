@@ -45,7 +45,9 @@ namespace WebApi
             services.AddScoped<IProveedorService, ProveedorService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IClienteService, ClienteService>();
-            services.AddScoped<ICatProductoService, CatProductoService>();
+            services.AddScoped<ICatService, CatService>();
+            services.AddScoped<IDtProductoService, DtProductoService>();
+            services.AddScoped<IInventarioService, InventarioService>();
             services.AddScoped<IProductoService, ProductoService>();
             services.AddInfrastructureServices();
         }

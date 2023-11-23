@@ -2,7 +2,7 @@
 
 namespace Domain.Endpoint.Entities
 {
-    public class User:BaseEntity
+    public class User : BaseEntity
     {
         public string PrimerNombre { get; set; }
         public string SegundoNombre { get; set; }

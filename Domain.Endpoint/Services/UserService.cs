@@ -10,7 +10,7 @@ namespace Domain.Endpoint.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
-   
+
 
         public UserService(IUserRepository userRepository)
         {
@@ -27,7 +27,7 @@ namespace Domain.Endpoint.Services
                 PrimerApellido = nuevoUser.PrimerApellido,
                 SegundoApellido = nuevoUser.SegundoApellido,
                 Correo = nuevoUser.Correo,
-                IdRol = nuevoUser.IdRol,
+                IdRol = Guid.NewGuid(),
                 Estado = nuevoUser.Estado,
                 Sexo = nuevoUser.Sexo,
                 UserName = nuevoUser.UserName,
@@ -57,4 +57,3 @@ namespace Domain.Endpoint.Services
     }
 }
 
- 

@@ -300,6 +300,7 @@ C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFramework
 C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\WebApi\obj\Debug\WebApi.csproj.CopyComplete
 C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\WebApi\obj\Debug\WebApi.dll
 C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\WebApi\obj\Debug\WebApi.pdb
+C:\Users\123\OneDrive\Escritorio\InsumosApi\WebApi\bin\AutoMapper.Net4.dll
 C:\Users\123\OneDrive\Escritorio\InsumosApi\WebApi\bin\WebApi.dll.config
 C:\Users\123\OneDrive\Escritorio\InsumosApi\WebApi\bin\WebApi.dll
 C:\Users\123\OneDrive\Escritorio\InsumosApi\WebApi\bin\WebApi.pdb

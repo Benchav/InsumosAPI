@@ -1,6 +1,5 @@
 ﻿using Domain.Endpoint.Entities;
 using Domain.Endpoint.Interfaces.Services;
-using Domain.Endpoint.Services;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -24,6 +23,13 @@ namespace WebApi.Controllers
 
             return Ok(cliente);
         }
+
+        /*  [HttpGet]
+          public async Task<IHttpActionResult> GetById(Guid Id)
+          {
+              Cliente Cliente = await _clienteService.GetById(Id);
+              return Ok(Cliente);
+          }*/
 
         [HttpPost]
         public IHttpActionResult PostCliente(Cliente nuevoCliente)
@@ -49,6 +55,5 @@ namespace WebApi.Controllers
 
             return Ok("El cliente seleccinado ha sido modificado");
         }
-
     }
 }

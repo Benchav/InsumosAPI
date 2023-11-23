@@ -1,0 +1,1232 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Iniciado : mi‚rcoles, 22 de noviembre de 2023 17:33:30
+   Origen : C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\
+     Destino : C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\Umbraco_Client\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\
+	   Nuevo dir       7	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Application\
+	    Nuevo arch		   13503	Extensions.js100%  
+	    Nuevo arch		    2417	HistoryManager.js100%  
+	    Nuevo arch		     839	NamespaceManager.js100%  
+	    Nuevo arch		   21957	UmbracoApplicationActions.js100%  
+	    Nuevo arch		   12833	UmbracoClientManager.js100%  
+	    Nuevo arch		     374	UmbracoUtils.js100%  
+	    Nuevo arch		    2060	UrlEncoder.js100%  
+	   Nuevo dir      12	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	    Nuevo arch		    2057	jquery-fieldselection.js100%  
+	    Nuevo arch		   30336	jquery.autocomplete.js100%  
+	    Nuevo arch		    5941	jquery.ba-bbq.min.js100%  
+	    Nuevo arch		    4344	jquery.cookie.js100%  
+	    Nuevo arch		    3178	jquery.hotkeys.js100%  
+	    Nuevo arch		    6992	jquery.idle-timer.js100%  
+	    Nuevo arch		    1304	jquery.metadata.min.js100%  
+	    Nuevo arch		     165	jquery.noconflict-invoke.js100%  
+	    Nuevo arch		    2749	jquery.unobtrusive-ajax.min.js100%  
+	    Nuevo arch		   21496	jquery.validate.min.js100%  
+	    Nuevo arch		    3745	jquery.validate.unobtrusive.min.js100%  
+	    Nuevo arch		     255	VerticalAlign.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\CodeArea\
+	    Nuevo arch		    6126	javascript.js100%  
+	    Nuevo arch		     305	styles.css100%  
+	    Nuevo arch		    6997	UmbracoEditor.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\Css\
+	    Nuevo arch		    3367	colorpicker.css100%  
+	   Nuevo dir      26	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\Images\
+	    Nuevo arch		      49	blank.gif100%  
+	    Nuevo arch		    1897	colorpicker_background.png100%  
+	    Nuevo arch		     532	colorpicker_hex.png100%  
+	    Nuevo arch		     970	colorpicker_hsb_b.png100%  
+	    Nuevo arch		    1012	colorpicker_hsb_h.png100%  
+	    Nuevo arch		    1171	colorpicker_hsb_s.png100%  
+	    Nuevo arch		      86	colorpicker_indic.gif100%  
+	    Nuevo arch		   10355	colorpicker_overlay.png100%  
+	    Nuevo arch		     970	colorpicker_rgb_b.png100%  
+	    Nuevo arch		    1069	colorpicker_rgb_g.png100%  
+	    Nuevo arch		    1066	colorpicker_rgb_r.png100%  
+	    Nuevo arch		      78	colorpicker_select.gif100%  
+	    Nuevo arch		     984	colorpicker_submit.png100%  
+	    Nuevo arch		    1916	custom_background.png100%  
+	    Nuevo arch		     562	custom_hex.png100%  
+	    Nuevo arch		    1097	custom_hsb_b.png100%  
+	    Nuevo arch		     970	custom_hsb_h.png100%  
+	    Nuevo arch		    1168	custom_hsb_s.png100%  
+	    Nuevo arch		      86	custom_indic.gif100%  
+	    Nuevo arch		    1008	custom_rgb_b.png100%  
+	    Nuevo arch		    1069	custom_rgb_g.png100%  
+	    Nuevo arch		    1018	custom_rgb_r.png100%  
+	    Nuevo arch		     997	custom_submit.png100%  
+	    Nuevo arch		     506	select.png100%  
+	    Nuevo arch		     518	select2.png100%  
+	    Nuevo arch		     315	slider.png100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\Js\
+	    Nuevo arch		   17175	colorpicker.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ContextMenu\
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	    Nuevo arch		    4026	jquery.contextMenu.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	    Nuevo arch		   62773	jquery.contextMenu.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Datepicker\
+	   Nuevo dir      10	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	    Nuevo arch		      89	active-bg.gif100%  
+	    Nuevo arch		      85	dark-bg.gif100%  
+	    Nuevo arch		      89	hover-bg.gif100%  
+	    Nuevo arch		      49	menuarrow.gif100%  
+	    Nuevo arch		     110	normal-bg.gif100%  
+	    Nuevo arch		     110	rowhover-bg.gif100%  
+	    Nuevo arch		     116	status-bg.gif100%  
+	    Nuevo arch		    4941	theme.css100%  
+	    Nuevo arch		     116	title-bg.gif100%  
+	    Nuevo arch		    1122	today-bg.gif100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Datepicker\Images\
+	    Nuevo arch		     674	calPickerIcon.png100%  
+	    Nuevo arch		     633	calPickerIconHover.png100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	    Nuevo arch		   20315	datetimepicker.css100%  
+	    Nuevo arch		   13311	timepicker.js100%  
+	    Nuevo arch		    1939	umbDateTimePicker.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	    Nuevo arch		    1110	calSprite.png100%  
+	    Nuevo arch		    8673	ui-icons_666666_256x240.png100%  
+	    Nuevo arch		    8641	ui-icons_999999_256x240.png100%  
+	   Nuevo dir      10	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Dialogs\
+	    Nuevo arch		     362	AssignDomain2.css100%  
+	    Nuevo arch		    5351	AssignDomain2.js100%  
+	    Nuevo arch		     212	CreateDialog.css100%  
+	    Nuevo arch		     316	EditMacro.css100%  
+	    Nuevo arch		    7379	EditMacro.js100%  
+	    Nuevo arch		     362	PublishDialog.css100%  
+	    Nuevo arch		    3481	PublishDialog.js100%  
+	    Nuevo arch		    1171	SortDialog.css100%  
+	    Nuevo arch		    4674	SortDialog.js100%  
+	    Nuevo arch		    6012	UmbracoField.js100%  
+	   Nuevo dir       9	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Editors\
+	    Nuevo arch		     486	DirectoryBrowser.css100%  
+	    Nuevo arch		     703	EditMacro.css100%  
+	    Nuevo arch		    3039	EditMacroScripts.js100%  
+	    Nuevo arch		    4183	EditScript.js100%  
+	    Nuevo arch		    3796	EditStyleSheet.js100%  
+	    Nuevo arch		    6259	EditTemplate.js100%  
+	    Nuevo arch		   11260	EditView.js100%  
+	    Nuevo arch		     161	EditXslt.css100%  
+	    Nuevo arch		    3008	EditXslt.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FileUploader\
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	    Nuevo arch		   16856	jquery.fileUploader.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	    Nuevo arch		    5366	folderbrowser.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	    Nuevo arch		   18665	folderbrowser.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\IconPicker\
+	    Nuevo arch		      52	iconpicker.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Imagecropper\
+	    Nuevo arch		     329	Jcrop.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Images\
+	    Nuevo arch		   10819	progressbar.gif100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\
+	   Nuevo dir       5	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\Css\
+	    Nuevo arch		   23469	all.css100%  
+	    Nuevo arch		    1314	form.css100%  
+	    Nuevo arch		   20078	jquery-ui-1.8.6.custom.css100%  
+	    Nuevo arch		    7958	lt7.css100%  
+	    Nuevo arch		     967	reset.css100%  
+	   Nuevo dir      98	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\Images\
+	    Nuevo arch		   19424	bg-bhuiness-cl.gif100%  
+	    Nuevo arch		   46684	bg-bhuiness-cr.gif100%  
+	    Nuevo arch		  184850	bg-bhuiness.jpg 70%  100%  
+	    Nuevo arch		   18564	bg-blog-cl.gif100%  
+	    Nuevo arch		   50756	bg-blog-cr.gif100%  
+	    Nuevo arch		   11078	bg-blog-repeat.jpg100%  
+	    Nuevo arch		  187609	bg-blog.jpg 69%  100%  
+	    Nuevo arch		     387	bg-drop-b.png100%  
+	    Nuevo arch		      84	bg-drop-c.gif100%  
+	    Nuevo arch		     391	bg-drop-t.png100%  
+	    Nuevo arch		     158	bg-header.png100%  
+	    Nuevo arch		    3915	bg-img-ie.png100%  
+	    Nuevo arch		    2452	bg-img.png100%  
+	    Nuevo arch		     866	bg-inp-big.png100%  
+	    Nuevo arch		     616	bg-inp-error.png100%  
+	    Nuevo arch		     621	bg-inp.png100%  
+	    Nuevo arch		     283	bg-lightbox-b.png100%  
+	    Nuevo arch		     296	bg-lightbox-t.png100%  
+	    Nuevo arch		   18097	bg-normal-cl.gif100%  
+	    Nuevo arch		   46703	bg-normal-cr.gif100%  
+	    Nuevo arch		    9811	bg-normal-repeat.jpg100%  
+	    Nuevo arch		  178356	bg-normal.jpg 73%  100%  
+	    Nuevo arch		     366	bg-paging-h.png100%  
+	    Nuevo arch		     346	bg-paging.png100%  
+	    Nuevo arch		   18097	bg-personal-cl.gif100%  
+	    Nuevo arch		   46703	bg-personal-cr.gif100%  
+	    Nuevo arch		    9811	bg-personal-repeat.jpg100%  
+	    Nuevo arch		  178356	bg-personal.jpg 73%  100%  
+	    Nuevo arch		   17705	bg-simple-cl.gif100%  
+	    Nuevo arch		   42137	bg-simple-cr.gif100%  
+	    Nuevo arch		   12773	bg-simple-repeat.jpg100%  
+	    Nuevo arch		  216794	bg-simple.jpg 60%  100%  
+	    Nuevo arch		    6059	btn-accept.png100%  
+	    Nuevo arch		    2708	btn-back.png100%  
+	    Nuevo arch		   22650	btn-blog.png100%  
+	    Nuevo arch		   16942	btn-buisness-repeat.png100%  
+	    Nuevo arch		   26481	btn-buisness.png100%  
+	    Nuevo arch		    1682	btn-close.png100%  
+	    Nuevo arch		    3113	btn-confirm.png100%  
+	    Nuevo arch		    3500	btn-continue.png100%  
+	    Nuevo arch		    2243	btn-create-hover.png100%  
+	    Nuevo arch		    4277	btn-create.png100%  
+	    Nuevo arch		    6109	btn-get.png100%  
+	    Nuevo arch		    6446	btn-install-gal.png100%  
+	    Nuevo arch		    1484	btn-install-hover.png100%  
+	    Nuevo arch		    2789	btn-install.png100%  
+	    Nuevo arch		     952	btn-next.png100%  
+	    Nuevo arch		   25962	btn-no-thanks.png100%  
+	    Nuevo arch		    1898	btn-no.png100%  
+	    Nuevo arch		   30788	btn-personal.png100%  
+	    Nuevo arch		     958	btn-prev.png100%  
+	    Nuevo arch		    7219	btn-preview-web.png100%  
+	    Nuevo arch		    8978	btn-preview.png100%  
+	    Nuevo arch		    6976	btn-set.png100%  
+	    Nuevo arch		   28477	btn-simple.png100%  
+	    Nuevo arch		    2380	btn-yes.png100%  
+	    Nuevo arch		     205	bul1.png100%  
+	    Nuevo arch		      46	bul2.gif100%  
+	    Nuevo arch		     240	bul3.png100%  
+	    Nuevo arch		      74	bul4.gif100%  
+	    Nuevo arch		     467	ico-invalidaing.png100%  
+	    Nuevo arch		     437	ico-validaing.png100%  
+	    Nuevo arch		    3189	img01.jpg100%  
+	    Nuevo arch		    3533	img02.jpg100%  
+	    Nuevo arch		    6205	img03.jpg100%  
+	    Nuevo arch		    5029	img04.jpg100%  
+	    Nuevo arch		    6113	img05.jpg100%  
+	    Nuevo arch		    4408	img06.jpg100%  
+	    Nuevo arch		    5924	img07.jpg100%  
+	    Nuevo arch		    4535	img08.jpg100%  
+	    Nuevo arch		   16018	img09.jpg100%  
+	    Nuevo arch		    4173	img10.jpg100%  
+	    Nuevo arch		    6618	img11.jpg100%  
+	    Nuevo arch		    2113	loader.gif100%  
+	    Nuevo arch		    1445	logo.gif100%  
+	    Nuevo arch		      43	none.gif100%  
+	    Nuevo arch		  304064	pbar-ani.gif 43%   86%  100%  
+	    Nuevo arch		    1026	pbar.gif100%  
+	    Nuevo arch		     491	select-button.png100%  
+	    Nuevo arch		     199	select-center.png100%  
+	    Nuevo arch		     816	select-left-2.png100%  
+	    Nuevo arch		     401	select-left.png100%  
+	    Nuevo arch		     110	sep1.png100%  
+	    Nuevo arch		     260	ui-bg_diagonals-thick_18_b81900_40x40.png100%  
+	    Nuevo arch		     251	ui-bg_diagonals-thick_20_666666_40x40.png100%  
+	    Nuevo arch		     178	ui-bg_flat_10_000000_40x100.png100%  
+	    Nuevo arch		     104	ui-bg_glass_100_f6f6f6_1x400.png100%  
+	    Nuevo arch		     125	ui-bg_glass_100_fdf5ce_1x400.png100%  
+	    Nuevo arch		     105	ui-bg_glass_65_ffffff_1x400.png100%  
+	    Nuevo arch		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png100%  
+	    Nuevo arch		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png100%  
+	    Nuevo arch		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png100%  
+	    Nuevo arch		    4369	ui-icons_222222_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_228ef1_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_ef8c08_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_ffd27a_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_ffffff_256x240.png100%  
+	    Nuevo arch		    1207	zoom-in.png100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\Js\
+	    Nuevo arch		    7058	ie-png.js100%  
+	    Nuevo arch		   62130	jquery.main.js100%  
+	    Nuevo arch		   19146	jquery.ui.selectmenu.js100%  
+	    Nuevo arch		    9543	PackageInstaller.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Jeditable\
+	    Nuevo arch		   24034	jquery.jeditable.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\MacroContainer\
+	    Nuevo arch		     666	macroContainer.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\MaskedInput\
+	    Nuevo arch		    4028	jquery.maskedinput-1.3.min.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Menuicon\
+	    Nuevo arch		     571	style.css100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	    Nuevo arch		     273	buttonbg.gif100%  
+	    Nuevo arch		     273	buttonbgdown.gif100%  
+	    Nuevo arch		     851	split.gif100%  
+	   Nuevo dir       5	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Modal\
+	    Nuevo arch		   24893	jquery.simplemodal.1.4.1.custom.js100%  
+	    Nuevo arch		   20746	modal.js100%  
+	    Nuevo arch		     475	modalBackground.gif100%  
+	    Nuevo arch		     151	modalGradiant.gif100%  
+	    Nuevo arch		    1417	style.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Mousewheel\
+	    Nuevo arch		    1638	jquery.mousewheel.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Panel\
+	    Nuevo arch		     240	javascript.js100%  
+	    Nuevo arch		    2608	style.css100%  
+	   Nuevo dir       6	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Panel\Images\
+	    Nuevo arch		      98	panel_bg.gif100%  
+	    Nuevo arch		      43	panel_boxfooter_bg.gif100%  
+	    Nuevo arch		     162	panel_boxfooter_statusBar_bg.gif100%  
+	    Nuevo arch		     164	panel_boxfooter_statusBar_h2_bg.gif100%  
+	    Nuevo arch		     194	panel_boxhead_bg.gif100%  
+	    Nuevo arch		     193	panel_boxhead_h2_bg.gif100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Preview\
+	    Nuevo arch		    3508	previewModeBadge.png100%  
+	    Nuevo arch		     169	umbracoPreview.css100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ProgressBar\
+	    Nuevo arch		     795	javascript.js100%  
+	    Nuevo arch		     524	style.css100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	    Nuevo arch		     314	container_left.gif100%  
+	    Nuevo arch		     102	container_right.gif100%  
+	    Nuevo arch		     113	indicator.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Propertypane\
+	    Nuevo arch		    2000	style.css100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	    Nuevo arch		    9038	propertyBackground.gif100%  
+	    Nuevo arch		     554	proppane_bg.png100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\PunyCode\
+	    Nuevo arch		    2802	punycode.min.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	    Nuevo arch		    2851	javascript.js100%  
+	    Nuevo arch		     255	style.css100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\
+	    Nuevo arch		     834	arrawBack.gif100%  
+	    Nuevo arch		     834	arrowForward.gif100%  
+	    Nuevo arch		     183	background.gif100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\Button\
+	    Nuevo arch		     273	buttonbg.gif100%  
+	    Nuevo arch		     273	buttonbgdown.gif100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\SimpleEditor\
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\SimpleEditor\Images\
+	    Nuevo arch		      78	bold.gif100%  
+	    Nuevo arch		      73	italic.gif100%  
+	    Nuevo arch		     108	link.gif100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Splitbutton\
+	    Nuevo arch		    2245	InsertMacroSplitButton.js100%  
+	    Nuevo arch		   18462	jquery.splitbutton.js100%  
+	    Nuevo arch		    2773	splitbutton.css100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	    Nuevo arch		     130	splitbutton_downarrow.png100%  
+	    Nuevo arch		     149	splitbutton_hover.png100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tablesorting\
+	    Nuevo arch		   16523	jquery.tablesorter.min.js100%  
+	    Nuevo arch		   18249	tableDragAndDrop.js100%  
+	    Nuevo arch		   23499	tableFilter.js100%  
+	    Nuevo arch		   12838	tableFilterUtill.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	    Nuevo arch		     830	asc.gif100%  
+	    Nuevo arch		      73	bg.gif100%  
+	    Nuevo arch		     833	desc.gif100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tabview\
+	    Nuevo arch		    3721	javascript.js100%  
+	    Nuevo arch		    1589	oldstyle.css100%  
+	    Nuevo arch		    2633	style.css100%  
+	   Nuevo dir       7	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	    Nuevo arch		     169	background.gif100%  
+	    Nuevo arch		      73	bg.gif100%  
+	    Nuevo arch		      43	footer_bg.gif100%  
+	    Nuevo arch		     162	footer_statusBar_bg.gif100%  
+	    Nuevo arch		     164	footer_statusBar_h2_bg.gif100%  
+	    Nuevo arch		    1343	left_both.gif100%  
+	    Nuevo arch		    3913	right_both.gif100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tags\
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tags\Css\
+	    Nuevo arch		    1117	jquery.tagsinput.css100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tags\Js\
+	    Nuevo arch		   11891	jquery.tagsinput.js100%  
+	    Nuevo arch		    6400	jquery.tagsinput.min.js100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\
+	    Nuevo arch		   26930	license.txt100%  
+	    Nuevo arch		  232483	tiny_mce.js 56%  100%  
+	    Nuevo arch		    4912	tiny_mce_popup.js100%  
+	    Nuevo arch		  524361	tiny_mce_src.js 49%   99%  100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Langs\
+	    Nuevo arch		    7049	da.js100%  
+	    Nuevo arch		    7251	de.js100%  
+	    Nuevo arch		    6515	en.js100%  
+	    Nuevo arch		    6518	en_us.js100%  
+	    Nuevo arch		    7711	fi.js100%  
+	    Nuevo arch		    7765	fr.js100%  
+	    Nuevo arch		   15279	he.js100%  
+	    Nuevo arch		    7010	it.js100%  
+	    Nuevo arch		   11301	ja.js100%  
+	    Nuevo arch		    6635	nl.js100%  
+	    Nuevo arch		    6958	no.js100%  
+	    Nuevo arch		    7897	pl.js100%  
+	    Nuevo arch		    7053	pt.js100%  
+	    Nuevo arch		   19794	ru.js100%  
+	    Nuevo arch		    6966	sv.js100%  
+	    Nuevo arch		    8432	zh.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\
+	    Nuevo arch		     847	editor_plugin.js100%  
+	    Nuevo arch		    1442	editor_plugin_src.js100%  
+	    Nuevo arch		    2422	rule.htm100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Css\
+	    Nuevo arch		     240	advhr.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Js\
+	    Nuevo arch		    1322	rule.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Langs\
+	    Nuevo arch		     127	da_dlg.js100%  
+	    Nuevo arch		     129	de_dlg.js100%  
+	    Nuevo arch		     117	en_dlg.js100%  
+	    Nuevo arch		     120	en_us_dlg.js100%  
+	    Nuevo arch		     128	fi_dlg.js100%  
+	    Nuevo arch		     129	fr_dlg.js100%  
+	    Nuevo arch		     225	he_dlg.js100%  
+	    Nuevo arch		     138	it_dlg.js100%  
+	    Nuevo arch		     146	ja_dlg.js100%  
+	    Nuevo arch		     126	nl_dlg.js100%  
+	    Nuevo arch		     127	no_dlg.js100%  
+	    Nuevo arch		     150	pl_dlg.js100%  
+	    Nuevo arch		     120	pt_dlg.js100%  
+	    Nuevo arch		     342	ru_dlg.js100%  
+	    Nuevo arch		     125	sv_dlg.js100%  
+	    Nuevo arch		     142	zh_dlg.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\
+	    Nuevo arch		     791	editor_plugin.js100%  
+	    Nuevo arch		    1391	editor_plugin_src.js100%  
+	    Nuevo arch		   12086	image.htm100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Css\
+	    Nuevo arch		     672	advimage.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Img\
+	    Nuevo arch		    1624	sample.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Js\
+	    Nuevo arch		   12909	image.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Langs\
+	    Nuevo arch		    1352	da_dlg.js100%  
+	    Nuevo arch		    1363	de_dlg.js100%  
+	    Nuevo arch		    1270	en_dlg.js100%  
+	    Nuevo arch		    1273	en_us_dlg.js100%  
+	    Nuevo arch		    1387	fi_dlg.js100%  
+	    Nuevo arch		    1508	fr_dlg.js100%  
+	    Nuevo arch		    2771	he_dlg.js100%  
+	    Nuevo arch		    1467	it_dlg.js100%  
+	    Nuevo arch		    2319	ja_dlg.js100%  
+	    Nuevo arch		    1267	nl_dlg.js100%  
+	    Nuevo arch		    1312	no_dlg.js100%  
+	    Nuevo arch		    1467	pl_dlg.js100%  
+	    Nuevo arch		    1374	pt_dlg.js100%  
+	    Nuevo arch		    4924	ru_dlg.js100%  
+	    Nuevo arch		    1266	sv_dlg.js100%  
+	    Nuevo arch		    1761	zh_dlg.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\
+	    Nuevo arch		     973	editor_plugin.js100%  
+	    Nuevo arch		    1633	editor_plugin_src.js100%  
+	    Nuevo arch		   16123	link.htm100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Css\
+	    Nuevo arch		     480	advlink.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Js\
+	    Nuevo arch		   17341	advlink.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Langs\
+	    Nuevo arch		    1944	da_dlg.js100%  
+	    Nuevo arch		    1955	de_dlg.js100%  
+	    Nuevo arch		    1667	en_dlg.js100%  
+	    Nuevo arch		    1670	en_us_dlg.js100%  
+	    Nuevo arch		    1985	fi_dlg.js100%  
+	    Nuevo arch		    2120	fr_dlg.js100%  
+	    Nuevo arch		    4332	he_dlg.js100%  
+	    Nuevo arch		    1864	it_dlg.js100%  
+	    Nuevo arch		    3274	ja_dlg.js100%  
+	    Nuevo arch		    1710	nl_dlg.js100%  
+	    Nuevo arch		    1871	no_dlg.js100%  
+	    Nuevo arch		    2012	pl_dlg.js100%  
+	    Nuevo arch		    1962	pt_dlg.js100%  
+	    Nuevo arch		    5662	ru_dlg.js100%  
+	    Nuevo arch		    1846	sv_dlg.js100%  
+	    Nuevo arch		    2326	zh_dlg.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlist\
+	    Nuevo arch		    2324	editor_plugin.js100%  
+	    Nuevo arch		    4726	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autolink\
+	    Nuevo arch		    2355	editor_plugin.js100%  
+	    Nuevo arch		    5492	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autoresize\
+	    Nuevo arch		    1506	editor_plugin.js100%  
+	    Nuevo arch		    4158	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\
+	    Nuevo arch		    3584	editor_plugin.js100%  
+	    Nuevo arch		   13766	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\Langs\
+	    Nuevo arch		     256	en.js100%  
+	    Nuevo arch		     259	en_us.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Bbcode\
+	    Nuevo arch		    3231	editor_plugin.js100%  
+	    Nuevo arch		    4361	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Contextmenu\
+	    Nuevo arch		    2540	editor_plugin.js100%  
+	    Nuevo arch		    5227	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Directionality\
+	    Nuevo arch		    1259	editor_plugin.js100%  
+	    Nuevo arch		    2189	editor_plugin_src.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\
+	    Nuevo arch		     676	editor_plugin.js100%  
+	    Nuevo arch		    1220	editor_plugin_src.js100%  
+	    Nuevo arch		    5972	emotions.htm100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Img\
+	    Nuevo arch		     354	smiley-cool.gif100%  
+	    Nuevo arch		     329	smiley-cry.gif100%  
+	    Nuevo arch		     331	smiley-embarassed.gif100%  
+	    Nuevo arch		     342	smiley-foot-in-mouth.gif100%  
+	    Nuevo arch		     340	smiley-frown.gif100%  
+	    Nuevo arch		     336	smiley-innocent.gif100%  
+	    Nuevo arch		     338	smiley-kiss.gif100%  
+	    Nuevo arch		     343	smiley-laughing.gif100%  
+	    Nuevo arch		     321	smiley-money-mouth.gif100%  
+	    Nuevo arch		     323	smiley-sealed.gif100%  
+	    Nuevo arch		     344	smiley-smile.gif100%  
+	    Nuevo arch		     338	smiley-surprised.gif100%  
+	    Nuevo arch		     328	smiley-tongue-out.gif100%  
+	    Nuevo arch		     337	smiley-undecided.gif100%  
+	    Nuevo arch		     350	smiley-wink.gif100%  
+	    Nuevo arch		     336	smiley-yell.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Js\
+	    Nuevo arch		    1120	emotions.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Langs\
+	    Nuevo arch		     463	da_dlg.js100%  
+	    Nuevo arch		     478	de_dlg.js100%  
+	    Nuevo arch		     421	en_dlg.js100%  
+	    Nuevo arch		     424	en_us_dlg.js100%  
+	    Nuevo arch		     532	fi_dlg.js100%  
+	    Nuevo arch		     513	fr_dlg.js100%  
+	    Nuevo arch		     999	he_dlg.js100%  
+	    Nuevo arch		     472	it_dlg.js100%  
+	    Nuevo arch		     738	ja_dlg.js100%  
+	    Nuevo arch		     459	nl_dlg.js100%  
+	    Nuevo arch		     446	no_dlg.js100%  
+	    Nuevo arch		     529	pl_dlg.js100%  
+	    Nuevo arch		     468	pt_dlg.js100%  
+	    Nuevo arch		    1380	ru_dlg.js100%  
+	    Nuevo arch		     496	sv_dlg.js100%  
+	    Nuevo arch		     456	zh_dlg.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\
+	    Nuevo arch		     908	dialog.htm100%  
+	    Nuevo arch		     860	editor_plugin.js100%  
+	    Nuevo arch		    2988	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Img\
+	    Nuevo arch		      87	example.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Js\
+	    Nuevo arch		     609	dialog.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Langs\
+	    Nuevo arch		      79	en.js100%  
+	    Nuevo arch		      82	en_dlg.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\example_dependency\
+	    Nuevo arch		     419	editor_plugin.js100%  
+	    Nuevo arch		    1885	editor_plugin_src.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\
+	    Nuevo arch		    6322	editor_plugin.js100%  
+	    Nuevo arch		   11568	editor_plugin_src.js100%  
+	    Nuevo arch		   10754	fullpage.htm100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Css\
+	    Nuevo arch		    2188	fullpage.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Js\
+	    Nuevo arch		    8164	fullpage.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Langs\
+	    Nuevo arch		    2347	da_dlg.js100%  
+	    Nuevo arch		    2469	de_dlg.js100%  
+	    Nuevo arch		    2297	en_dlg.js100%  
+	    Nuevo arch		    2300	en_us_dlg.js100%  
+	    Nuevo arch		    2541	fi_dlg.js100%  
+	    Nuevo arch		    2864	fr_dlg.js100%  
+	    Nuevo arch		    4260	he_dlg.js100%  
+	    Nuevo arch		    2520	it_dlg.js100%  
+	    Nuevo arch		    3802	ja_dlg.js100%  
+	    Nuevo arch		    2365	nl_dlg.js100%  
+	    Nuevo arch		    2359	no_dlg.js100%  
+	    Nuevo arch		    2712	pl_dlg.js100%  
+	    Nuevo arch		    2387	pt_dlg.js100%  
+	    Nuevo arch		    6193	ru_dlg.js100%  
+	    Nuevo arch		    2499	sv_dlg.js100%  
+	    Nuevo arch		    2863	zh_dlg.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullscreen\
+	    Nuevo arch		    4422	editor_plugin.js100%  
+	    Nuevo arch		    8222	editor_plugin_src.js100%  
+	    Nuevo arch		    3655	fullscreen.htm100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Iespell\
+	    Nuevo arch		     909	editor_plugin.js100%  
+	    Nuevo arch		    1484	editor_plugin_src.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\
+	    Nuevo arch		   11928	editor_plugin.js100%  
+	    Nuevo arch		   19657	editor_plugin_src.js100%  
+	    Nuevo arch		   12878	template.htm100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\
+	    Nuevo arch		    6715	window.css100%  
+	   Nuevo dir       7	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\Img\
+	    Nuevo arch		     810	alert.gif100%  
+	    Nuevo arch		     272	button.gif100%  
+	    Nuevo arch		    1195	buttons.gif100%  
+	    Nuevo arch		     907	confirm.gif100%  
+	    Nuevo arch		     909	corners.gif100%  
+	    Nuevo arch		     769	horizontal.gif100%  
+	    Nuevo arch		      84	vertical.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\
+	    Nuevo arch		    4816	window.css100%  
+	   Nuevo dir       8	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\Img\
+	    Nuevo arch		     818	alert.gif100%  
+	    Nuevo arch		     280	button.gif100%  
+	    Nuevo arch		    1195	buttons.gif100%  
+	    Nuevo arch		    3728	close.png100%  
+	    Nuevo arch		     915	confirm.gif100%  
+	    Nuevo arch		     569	corners.gif100%  
+	    Nuevo arch		     436	horizontal.gif100%  
+	    Nuevo arch		     140	vertical.gif100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Insertdatetime\
+	    Nuevo arch		    1931	editor_plugin.js100%  
+	    Nuevo arch		    2860	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Layer\
+	    Nuevo arch		    4052	editor_plugin.js100%  
+	    Nuevo arch		    6747	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Legacyoutput\
+	    Nuevo arch		    2086	editor_plugin.js100%  
+	    Nuevo arch		    5077	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Lists\
+	    Nuevo arch		   14380	editor_plugin.js100%  
+	    Nuevo arch		   32531	editor_plugin_src.js100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\
+	    Nuevo arch		   12655	editor_plugin.js100%  
+	    Nuevo arch		   26419	editor_plugin_src.js100%  
+	    Nuevo arch		   38852	media.htm100%  
+	    Nuevo arch		   19980	moxieplayer.swf100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Css\
+	    Nuevo arch		    1357	media.css100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Js\
+	    Nuevo arch		    1938	embed.js100%  
+	    Nuevo arch		   16473	media.js100%  
+	   Nuevo dir      18	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Langs\
+	    Nuevo arch		    3077	da_dlg.js100%  
+	    Nuevo arch		    3164	de_dlg.js100%  
+	    Nuevo arch		    2815	en_dlg.js100%  
+	    Nuevo arch		    2818	en_us_dlg.js100%  
+	    Nuevo arch		    3018	es_dlg.js100%  
+	    Nuevo arch		    3314	fi_dlg.js100%  
+	    Nuevo arch		    3302	fr_dlg.js100%  
+	    Nuevo arch		    5399	he_dlg.js100%  
+	    Nuevo arch		    3062	it_dlg.js100%  
+	    Nuevo arch		    5047	ja_dlg.js100%  
+	    Nuevo arch		    2734	ko_dlg.js100%  
+	    Nuevo arch		    2949	nl_dlg.js100%  
+	    Nuevo arch		    3047	no_dlg.js100%  
+	    Nuevo arch		    3259	pl_dlg.js100%  
+	    Nuevo arch		    3259	pt_dlg.js100%  
+	    Nuevo arch		    9433	ru_dlg.js100%  
+	    Nuevo arch		    2962	sv_dlg.js100%  
+	    Nuevo arch		    3445	zh_dlg.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Nonbreaking\
+	    Nuevo arch		     944	editor_plugin.js100%  
+	    Nuevo arch		    1521	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Noneditable\
+	    Nuevo arch		    5431	editor_plugin.js100%  
+	    Nuevo arch		   17154	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Pagebreak\
+	    Nuevo arch		    1402	editor_plugin.js100%  
+	    Nuevo arch		    2161	editor_plugin_src.js100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\
+	    Nuevo arch		   13713	editor_plugin.js100%  
+	    Nuevo arch		   31674	editor_plugin_src.js100%  
+	    Nuevo arch		    1209	pastetext.htm100%  
+	    Nuevo arch		     783	pasteword.htm100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Js\
+	    Nuevo arch		     884	pastetext.js100%  
+	    Nuevo arch		    1647	pasteword.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Langs\
+	    Nuevo arch		     227	da_dlg.js100%  
+	    Nuevo arch		     262	de_dlg.js100%  
+	    Nuevo arch		     226	en_dlg.js100%  
+	    Nuevo arch		     229	en_us_dlg.js100%  
+	    Nuevo arch		     245	fi_dlg.js100%  
+	    Nuevo arch		     276	fr_dlg.js100%  
+	    Nuevo arch		     610	he_dlg.js100%  
+	    Nuevo arch		     252	it_dlg.js100%  
+	    Nuevo arch		     517	ja_dlg.js100%  
+	    Nuevo arch		     209	nl_dlg.js100%  
+	    Nuevo arch		     256	no_dlg.js100%  
+	    Nuevo arch		     263	pl_dlg.js100%  
+	    Nuevo arch		     190	pt_dlg.js100%  
+	    Nuevo arch		     633	ru_dlg.js100%  
+	    Nuevo arch		     284	sv_dlg.js100%  
+	    Nuevo arch		     258	zh_dlg.js100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\
+	    Nuevo arch		    1051	editor_plugin.js100%  
+	    Nuevo arch		    1641	editor_plugin_src.js100%  
+	    Nuevo arch		     731	example.html100%  
+	    Nuevo arch		     630	preview.html100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\Jscripts\
+	    Nuevo arch		    1938	embed.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Print\
+	    Nuevo arch		     492	editor_plugin.js100%  
+	    Nuevo arch		     881	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Save\
+	    Nuevo arch		    1569	editor_plugin.js100%  
+	    Nuevo arch		    2529	editor_plugin_src.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\
+	    Nuevo arch		    1046	editor_plugin.js100%  
+	    Nuevo arch		    1795	editor_plugin_src.js100%  
+	    Nuevo arch		    5334	searchreplace.htm100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Css\
+	    Nuevo arch		     176	searchreplace.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Js\
+	    Nuevo arch		    3878	searchreplace.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Langs\
+	    Nuevo arch		     461	da_dlg.js100%  
+	    Nuevo arch		     522	de_dlg.js100%  
+	    Nuevo arch		     445	en_dlg.js100%  
+	    Nuevo arch		     448	en_us_dlg.js100%  
+	    Nuevo arch		     468	fi_dlg.js100%  
+	    Nuevo arch		     584	fr_dlg.js100%  
+	    Nuevo arch		    1056	he_dlg.js100%  
+	    Nuevo arch		     473	it_dlg.js100%  
+	    Nuevo arch		     755	ja_dlg.js100%  
+	    Nuevo arch		     488	nl_dlg.js100%  
+	    Nuevo arch		     475	no_dlg.js100%  
+	    Nuevo arch		     602	pl_dlg.js100%  
+	    Nuevo arch		     489	pt_dlg.js100%  
+	    Nuevo arch		    1262	ru_dlg.js100%  
+	    Nuevo arch		     535	sv_dlg.js100%  
+	    Nuevo arch		     633	zh_dlg.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\
+	    Nuevo arch		    7217	editor_plugin.js100%  
+	    Nuevo arch		   12791	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Css\
+	    Nuevo arch		      98	content.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Img\
+	    Nuevo arch		      46	wline.gif100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\
+	    Nuevo arch		    1117	editor_plugin.js100%  
+	    Nuevo arch		    1927	editor_plugin_src.js100%  
+	    Nuevo arch		   38494	props.htm100%  
+	    Nuevo arch		    1030	readme.txt100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Css\
+	    Nuevo arch		     906	props.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Js\
+	    Nuevo arch		   32355	props.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Langs\
+	    Nuevo arch		    1689	da_dlg.js100%  
+	    Nuevo arch		    1824	de_dlg.js100%  
+	    Nuevo arch		    1627	en_dlg.js100%  
+	    Nuevo arch		    1630	en_us_dlg.js100%  
+	    Nuevo arch		    1762	fi_dlg.js100%  
+	    Nuevo arch		    1723	fr_dlg.js100%  
+	    Nuevo arch		    3246	he_dlg.js100%  
+	    Nuevo arch		    1718	it_dlg.js100%  
+	    Nuevo arch		    2436	ja_dlg.js100%  
+	    Nuevo arch		    1652	nl_dlg.js100%  
+	    Nuevo arch		    1648	no_dlg.js100%  
+	    Nuevo arch		    1916	pl_dlg.js100%  
+	    Nuevo arch		    1684	pt_dlg.js100%  
+	    Nuevo arch		    4509	ru_dlg.js100%  
+	    Nuevo arch		    1700	sv_dlg.js100%  
+	    Nuevo arch		    2005	zh_dlg.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Tabfocus\
+	    Nuevo arch		    1666	editor_plugin.js100%  
+	    Nuevo arch		    3057	editor_plugin_src.js100%  
+	   Nuevo dir       6	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\
+	    Nuevo arch		    7292	cell.htm100%  
+	    Nuevo arch		   17667	editor_plugin.js100%  
+	    Nuevo arch		   40915	editor_plugin_src.js100%  
+	    Nuevo arch		    1508	merge_cells.htm100%  
+	    Nuevo arch		    6263	row.htm100%  
+	    Nuevo arch		    9035	table.htm100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Css\
+	    Nuevo arch		     205	cell.css100%  
+	    Nuevo arch		     306	row.css100%  
+	    Nuevo arch		     170	table.css100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Js\
+	    Nuevo arch		    9458	cell.js100%  
+	    Nuevo arch		     566	merge_cells.js100%  
+	    Nuevo arch		    7775	row.js100%  
+	    Nuevo arch		   15534	table.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Langs\
+	    Nuevo arch		    2262	da_dlg.js100%  
+	    Nuevo arch		    2462	de_dlg.js100%  
+	    Nuevo arch		    2092	en_dlg.js100%  
+	    Nuevo arch		    2095	en_us_dlg.js100%  
+	    Nuevo arch		    2516	fi_dlg.js100%  
+	    Nuevo arch		    2694	fr_dlg.js100%  
+	    Nuevo arch		    4748	he_dlg.js100%  
+	    Nuevo arch		    2301	it_dlg.js100%  
+	    Nuevo arch		    3631	ja_dlg.js100%  
+	    Nuevo arch		    2199	nl_dlg.js100%  
+	    Nuevo arch		    2247	no_dlg.js100%  
+	    Nuevo arch		    2653	pl_dlg.js100%  
+	    Nuevo arch		    2285	pt_dlg.js100%  
+	    Nuevo arch		    6724	ru_dlg.js100%  
+	    Nuevo arch		    2189	sv_dlg.js100%  
+	    Nuevo arch		    2859	zh_dlg.js100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\
+	    Nuevo arch		     332	blank.htm100%  
+	    Nuevo arch		    3302	editor_plugin.js100%  
+	    Nuevo arch		    4986	editor_plugin_src.js100%  
+	    Nuevo arch		    1441	template.htm100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Css\
+	    Nuevo arch		     275	template.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Js\
+	    Nuevo arch		    2777	template.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Langs\
+	    Nuevo arch		     670	da_dlg.js100%  
+	    Nuevo arch		     662	de_dlg.js100%  
+	    Nuevo arch		     627	en_dlg.js100%  
+	    Nuevo arch		     630	en_us_dlg.js100%  
+	    Nuevo arch		     756	fi_dlg.js100%  
+	    Nuevo arch		     731	fr_dlg.js100%  
+	    Nuevo arch		    1065	he_dlg.js100%  
+	    Nuevo arch		     693	it_dlg.js100%  
+	    Nuevo arch		    1041	ja_dlg.js100%  
+	    Nuevo arch		     670	nl_dlg.js100%  
+	    Nuevo arch		     651	no_dlg.js100%  
+	    Nuevo arch		     688	pl_dlg.js100%  
+	    Nuevo arch		     694	pt_dlg.js100%  
+	    Nuevo arch		    2076	ru_dlg.js100%  
+	    Nuevo arch		     670	sv_dlg.js100%  
+	    Nuevo arch		     989	zh_dlg.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocontextmenu\
+	    Nuevo arch		    2561	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\
+	    Nuevo arch		     991	dialog.htm100%  
+	    Nuevo arch		    8362	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Img\
+	    Nuevo arch		      87	example.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Js\
+	    Nuevo arch		     609	dialog.js100%  
+	   Nuevo dir      14	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Langs\
+	    Nuevo arch		      79	en.js100%  
+	    Nuevo arch		      82	en_dlg.js100%  
+	    Nuevo arch		      82	en_us.js100%  
+	    Nuevo arch		      85	en_us_dlg.js100%  
+	    Nuevo arch		      67	it.js100%  
+	    Nuevo arch		      71	it_dlg.js100%  
+	    Nuevo arch		      92	ja.js100%  
+	    Nuevo arch		      84	ja_dlg.js100%  
+	    Nuevo arch		      96	ru.js100%  
+	    Nuevo arch		     105	ru_dlg.js100%  
+	    Nuevo arch		      76	sv.js100%  
+	    Nuevo arch		      93	sv_dlg.js100%  
+	    Nuevo arch		      67	zh.js100%  
+	    Nuevo arch		      72	zh_dlg.js100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\
+	    Nuevo arch		    3816	dialog.htm100%  
+	    Nuevo arch		     860	editor_plugin.js100%  
+	    Nuevo arch		    2984	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Img\
+	    Nuevo arch		    1928	ajax-loader.gif100%  
+	    Nuevo arch		     260	embed.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Js\
+	    Nuevo arch		    3260	dialog.js100%  
+	   Nuevo dir      18	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Langs\
+	    Nuevo arch		      85	da.js100%  
+	    Nuevo arch		     251	da_dlg.js100%  
+	    Nuevo arch		     272	de.js100%  
+	    Nuevo arch		     272	de_dlg.js100%  
+	    Nuevo arch		      78	en.js100%  
+	    Nuevo arch		     232	en_dlg.js100%  
+	    Nuevo arch		      81	en_us.js100%  
+	    Nuevo arch		     235	en_us_dlg.js100%  
+	    Nuevo arch		     236	it.js100%  
+	    Nuevo arch		     244	it_dlg.js100%  
+	    Nuevo arch		     267	ja.js100%  
+	    Nuevo arch		     268	ja_dlg.js100%  
+	    Nuevo arch		     329	ru.js100%  
+	    Nuevo arch		     329	ru_dlg.js100%  
+	    Nuevo arch		     260	sv.js100%  
+	    Nuevo arch		     260	sv_dlg.js100%  
+	    Nuevo arch		     235	zh.js100%  
+	    Nuevo arch		     235	zh_dlg.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\
+	    Nuevo arch		    1739	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Js\
+	    Nuevo arch		   10412	image.js100%  
+	   Nuevo dir       8	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Langs\
+	    Nuevo arch		    1495	en_dlg.js100%  
+	    Nuevo arch		    1498	en_us_dlg.js100%  
+	    Nuevo arch		    1495	he_dlg.js100%  
+	    Nuevo arch		    1583	it_dlg.js100%  
+	    Nuevo arch		    1694	ja_dlg.js100%  
+	    Nuevo arch		    2314	ru_dlg.js100%  
+	    Nuevo arch		    1536	sv_dlg.js100%  
+	    Nuevo arch		    1346	zh_dlg.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\
+	    Nuevo arch		    1860	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Js\
+	    Nuevo arch		   17755	umbracolink.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Langs\
+	    Nuevo arch		    1944	da_dlg.js100%  
+	    Nuevo arch		    1955	de_dlg.js100%  
+	    Nuevo arch		    1667	en_dlg.js100%  
+	    Nuevo arch		    1670	en_us_dlg.js100%  
+	    Nuevo arch		    1985	fi_dlg.js100%  
+	    Nuevo arch		    2120	fr_dlg.js100%  
+	    Nuevo arch		    4332	he_dlg.js100%  
+	    Nuevo arch		    1864	it_dlg.js100%  
+	    Nuevo arch		    3274	ja_dlg.js100%  
+	    Nuevo arch		    1710	nl_dlg.js100%  
+	    Nuevo arch		    1871	no_dlg.js100%  
+	    Nuevo arch		    2012	pl_dlg.js100%  
+	    Nuevo arch		    1962	pt_dlg.js100%  
+	    Nuevo arch		    2727	ru_dlg.js100%  
+	    Nuevo arch		    1846	sv_dlg.js100%  
+	    Nuevo arch		    2326	zh_dlg.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\
+	    Nuevo arch		     991	dialog.htm100%  
+	    Nuevo arch		    6151	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Img\
+	    Nuevo arch		     603	insMacro.gif100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Js\
+	    Nuevo arch		     609	dialog.js100%  
+	   Nuevo dir      14	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Langs\
+	    Nuevo arch		      69	en.js100%  
+	    Nuevo arch		      82	en_dlg.js100%  
+	    Nuevo arch		      72	en_us.js100%  
+	    Nuevo arch		      85	en_us_dlg.js100%  
+	    Nuevo arch		      79	he.js100%  
+	    Nuevo arch		      82	he_dlg.js100%  
+	    Nuevo arch		      75	ja.js100%  
+	    Nuevo arch		      90	ja_dlg.js100%  
+	    Nuevo arch		      86	ru.js100%  
+	    Nuevo arch		      81	ru_dlg.js100%  
+	    Nuevo arch		      69	sv.js100%  
+	    Nuevo arch		      92	sv_dlg.js100%  
+	    Nuevo arch		      66	zh.js100%  
+	    Nuevo arch		      72	zh_dlg.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracopaste\
+	    Nuevo arch		    1753	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoshortcut\
+	    Nuevo arch		    1255	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\
+	    Nuevo arch		     958	editor_plugin.js100%  
+	    Nuevo arch		    1712	editor_plugin_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\Css\
+	    Nuevo arch		    3040	visualblocks.css100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualchars\
+	    Nuevo arch		    1368	editor_plugin.js100%  
+	    Nuevo arch		    2195	editor_plugin_src.js100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Wordcount\
+	    Nuevo arch		    1960	editor_plugin.js100%  
+	    Nuevo arch		    3331	editor_plugin_src.js100%  
+	   Nuevo dir       8	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\
+	    Nuevo arch		    6243	abbr.htm100%  
+	    Nuevo arch		    6258	acronym.htm100%  
+	    Nuevo arch		    6232	attributes.htm100%  
+	    Nuevo arch		    6243	cite.htm100%  
+	    Nuevo arch		    7294	del.htm100%  
+	    Nuevo arch		    2756	editor_plugin.js100%  
+	    Nuevo arch		    4098	editor_plugin_src.js100%  
+	    Nuevo arch		    7299	ins.htm100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Css\
+	    Nuevo arch		     197	attributes.css100%  
+	    Nuevo arch		     514	popup.css100%  
+	   Nuevo dir       7	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Js\
+	    Nuevo arch		     541	abbr.js100%  
+	    Nuevo arch		     559	acronym.js100%  
+	    Nuevo arch		    3471	attributes.js100%  
+	    Nuevo arch		     541	cite.js100%  
+	    Nuevo arch		    1356	del.js100%  
+	    Nuevo arch		    7159	element_common.js100%  
+	    Nuevo arch		    1356	ins.js100%  
+	   Nuevo dir      16	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Langs\
+	    Nuevo arch		    1194	da_dlg.js100%  
+	    Nuevo arch		    1141	de_dlg.js100%  
+	    Nuevo arch		    1092	en_dlg.js100%  
+	    Nuevo arch		    1095	en_us_dlg.js100%  
+	    Nuevo arch		    1214	fi_dlg.js100%  
+	    Nuevo arch		    1195	fr_dlg.js100%  
+	    Nuevo arch		    2222	he_dlg.js100%  
+	    Nuevo arch		    1181	it_dlg.js100%  
+	    Nuevo arch		    1531	ja_dlg.js100%  
+	    Nuevo arch		    1149	nl_dlg.js100%  
+	    Nuevo arch		    1147	no_dlg.js100%  
+	    Nuevo arch		    1159	pl_dlg.js100%  
+	    Nuevo arch		    1140	pt_dlg.js100%  
+	    Nuevo arch		    2564	ru_dlg.js100%  
+	    Nuevo arch		    1157	sv_dlg.js100%  
+	    Nuevo arch		    1372	zh_dlg.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\
+	   Nuevo dir      10	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\
+	    Nuevo arch		    2701	about.htm100%  
+	    Nuevo arch		    1167	anchor.htm100%  
+	    Nuevo arch		    2251	charmap.htm100%  
+	    Nuevo arch		    3317	color_picker.htm100%  
+	    Nuevo arch		   26734	editor_template.js100%  
+	    Nuevo arch		   43419	editor_template_src.js100%  
+	    Nuevo arch		    4038	image.htm100%  
+	    Nuevo arch		    2527	link.htm100%  
+	    Nuevo arch		    1732	shortcuts.htm100%  
+	    Nuevo arch		    1269	source_editor.htm100%  
+	   Nuevo dir      11	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Img\
+	    Nuevo arch		    2584	colorpicker.jpg100%  
+	    Nuevo arch		     239	flash.gif100%  
+	    Nuevo arch		   11982	icons.gif100%  
+	    Nuevo arch		     600	iframe.gif100%  
+	    Nuevo arch		     325	pagebreak.gif100%  
+	    Nuevo arch		     301	quicktime.gif100%  
+	    Nuevo arch		     439	realmedia.gif100%  
+	    Nuevo arch		     384	shockwave.gif100%  
+	    Nuevo arch		      43	trans.gif100%  
+	    Nuevo arch		     597	video.gif100%  
+	    Nuevo arch		     415	windowsmedia.gif100%  
+	   Nuevo dir       7	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Js\
+	    Nuevo arch		    2203	about.js100%  
+	    Nuevo arch		    1498	anchor.js100%  
+	    Nuevo arch		   15793	charmap.js100%  
+	    Nuevo arch		   14559	color_picker.js100%  
+	    Nuevo arch		    6391	image.js100%  
+	    Nuevo arch		    4947	link.js100%  
+	    Nuevo arch		    1694	source_editor.js100%  
+	   Nuevo dir      28	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Langs\
+	    Nuevo arch		    2547	da.js100%  
+	    Nuevo arch		    2201	da_dlg.js100%  
+	    Nuevo arch		    2623	de.js100%  
+	    Nuevo arch		    2152	de_dlg.js100%  
+	    Nuevo arch		    2341	en.js100%  
+	    Nuevo arch		    1981	en_dlg.js100%  
+	    Nuevo arch		    2767	fi.js100%  
+	    Nuevo arch		    2287	fi_dlg.js100%  
+	    Nuevo arch		    2782	fr.js100%  
+	    Nuevo arch		    2341	fr_dlg.js100%  
+	    Nuevo arch		    5268	he.js100%  
+	    Nuevo arch		    4766	he_dlg.js100%  
+	    Nuevo arch		    2771	it.js100%  
+	    Nuevo arch		    2120	it_dlg.js100%  
+	    Nuevo arch		    3775	ja.js100%  
+	    Nuevo arch		    3416	ja_dlg.js100%  
+	    Nuevo arch		    2329	nl.js100%  
+	    Nuevo arch		    2040	nl_dlg.js100%  
+	    Nuevo arch		    2400	no.js100%  
+	    Nuevo arch		    2124	no_dlg.js100%  
+	    Nuevo arch		    2869	pl.js100%  
+	    Nuevo arch		    2298	pl_dlg.js100%  
+	    Nuevo arch		    2714	pt.js100%  
+	    Nuevo arch		    2217	pt_dlg.js100%  
+	    Nuevo arch		    2502	sv.js100%  
+	    Nuevo arch		    2205	sv_dlg.js100%  
+	    Nuevo arch		    3059	zh.js100%  
+	    Nuevo arch		    2544	zh_dlg.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\
+	    Nuevo arch		    2607	content.css100%  
+	    Nuevo arch		    5761	dialog.css100%  
+	    Nuevo arch		   15959	ui.css100%  
+	   Nuevo dir       6	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\Img\
+	    Nuevo arch		    3133	buttons.png100%  
+	    Nuevo arch		      64	items.gif100%  
+	    Nuevo arch		      68	menu_arrow.gif100%  
+	    Nuevo arch		      70	menu_check.gif100%  
+	    Nuevo arch		    1787	progress.gif100%  
+	    Nuevo arch		    1322	tabs.gif100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Highcontrast\
+	    Nuevo arch		    1122	content.css100%  
+	    Nuevo arch		    5219	dialog.css100%  
+	    Nuevo arch		    8886	ui.css100%  
+	   Nuevo dir       5	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\
+	    Nuevo arch		    2331	content.css100%  
+	    Nuevo arch		    5849	dialog.css100%  
+	    Nuevo arch		   15405	ui.css100%  
+	    Nuevo arch		    1695	ui_black.css100%  
+	    Nuevo arch		     860	ui_silver.css100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\Img\
+	    Nuevo arch		    2766	button_bg.png100%  
+	    Nuevo arch		     651	button_bg_black.png100%  
+	    Nuevo arch		    2084	button_bg_silver.png100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\
+	    Nuevo arch		    2226	editor_template.js100%  
+	    Nuevo arch		    3205	editor_template_src.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Img\
+	    Nuevo arch		     806	icons.gif100%  
+	   Nuevo dir      14	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Langs\
+	    Nuevo arch		     359	da.js100%  
+	    Nuevo arch		     355	de.js100%  
+	    Nuevo arch		     347	en.js100%  
+	    Nuevo arch		     376	fi.js100%  
+	    Nuevo arch		     349	fr.js100%  
+	    Nuevo arch		     539	he.js100%  
+	    Nuevo arch		     345	it.js100%  
+	    Nuevo arch		     487	ja.js100%  
+	    Nuevo arch		     326	nl.js100%  
+	    Nuevo arch		     309	no.js100%  
+	    Nuevo arch		     382	pl.js100%  
+	    Nuevo arch		     351	pt.js100%  
+	    Nuevo arch		     347	sv.js100%  
+	    Nuevo arch		     401	zh.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\Default\
+	    Nuevo arch		     513	content.css100%  
+	    Nuevo arch		    2105	ui.css100%  
+	   Nuevo dir       2	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\
+	    Nuevo arch		     461	content.css100%  
+	    Nuevo arch		    2340	ui.css100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\Img\
+	    Nuevo arch		    5102	button_bg.png100%  
+	   Nuevo dir       9	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\
+	    Nuevo arch		    2682	about.htm100%  
+	    Nuevo arch		    1091	anchor.htm100%  
+	    Nuevo arch		    2339	charmap.htm100%  
+	    Nuevo arch		    3333	color_picker.htm100%  
+	    Nuevo arch		   43516	editor_template_src.js100%  
+	    Nuevo arch		    4046	image.htm100%  
+	    Nuevo arch		    2547	link.htm100%  
+	    Nuevo arch		    1730	shortcuts.htm100%  
+	    Nuevo arch		    1382	source_editor.htm100%  
+	   Nuevo dir      11	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Img\
+	    Nuevo arch		    2584	colorpicker.jpg100%  
+	    Nuevo arch		     239	flash.gif100%  
+	    Nuevo arch		   11982	icons.gif100%  
+	    Nuevo arch		     600	iframe.gif100%  
+	    Nuevo arch		     325	pagebreak.gif100%  
+	    Nuevo arch		     301	quicktime.gif100%  
+	    Nuevo arch		     439	realmedia.gif100%  
+	    Nuevo arch		     384	shockwave.gif100%  
+	    Nuevo arch		      43	trans.gif100%  
+	    Nuevo arch		     597	video.gif100%  
+	    Nuevo arch		     415	windowsmedia.gif100%  
+	   Nuevo dir       7	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Js\
+	    Nuevo arch		    2203	about.js100%  
+	    Nuevo arch		    1193	anchor.js100%  
+	    Nuevo arch		   15793	charmap.js100%  
+	    Nuevo arch		   14559	color_picker.js100%  
+	    Nuevo arch		    6391	image.js100%  
+	    Nuevo arch		    4884	link.js100%  
+	    Nuevo arch		    1694	source_editor.js100%  
+	   Nuevo dir      30	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Langs\
+	    Nuevo arch		    2109	da.js100%  
+	    Nuevo arch		    1926	da_dlg.js100%  
+	    Nuevo arch		    2265	de.js100%  
+	    Nuevo arch		    1860	de_dlg.js100%  
+	    Nuevo arch		    2488	en.js100%  
+	    Nuevo arch		    2066	en_dlg.js100%  
+	    Nuevo arch		    2491	en_us.js100%  
+	    Nuevo arch		    2069	en_us_dlg.js100%  
+	    Nuevo arch		    2232	es.js100%  
+	    Nuevo arch		    1998	es_dlg.js100%  
+	    Nuevo arch		    2294	fr.js100%  
+	    Nuevo arch		    1964	fr_dlg.js100%  
+	    Nuevo arch		    2209	he.js100%  
+	    Nuevo arch		    1987	he_dlg.js100%  
+	    Nuevo arch		    2669	it.js100%  
+	    Nuevo arch		    2058	it_dlg.js100%  
+	    Nuevo arch		    2727	ja.js100%  
+	    Nuevo arch		    2429	ja_dlg.js100%  
+	    Nuevo arch		    2823	ko.js100%  
+	    Nuevo arch		    2147	ko_dlg.js100%  
+	    Nuevo arch		    1946	nl.js100%  
+	    Nuevo arch		    1768	nl_dlg.js100%  
+	    Nuevo arch		    1948	no.js100%  
+	    Nuevo arch		    1846	no_dlg.js100%  
+	    Nuevo arch		    3405	ru.js100%  
+	    Nuevo arch		    2725	ru_dlg.js100%  
+	    Nuevo arch		    2012	sv.js100%  
+	    Nuevo arch		    1912	sv_dlg.js100%  
+	    Nuevo arch		    2409	zh.js100%  
+	    Nuevo arch		    2070	zh_dlg.js100%  
+	   Nuevo dir       0	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\
+	    Nuevo arch		    1367	content.css100%  
+	    Nuevo arch		    5364	dialog.css100%  
+	    Nuevo arch		   16035	ui.css100%  
+	   Nuevo dir       6	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\Img\
+	    Nuevo arch		    4579	buttons.png100%  
+	    Nuevo arch		      70	items.gif100%  
+	    Nuevo arch		      68	menu_arrow.gif100%  
+	    Nuevo arch		      70	menu_check.gif100%  
+	    Nuevo arch		    1787	progress.gif100%  
+	    Nuevo arch		    1326	tabs.gif100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Utils\
+	    Nuevo arch		    2046	editable_selects.js100%  
+	    Nuevo arch		    5991	form_utils.js100%  
+	    Nuevo arch		    4055	mctabs.js100%  
+	    Nuevo arch		    6100	validate.js100%  
+	   Nuevo dir      11	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\
+	    Nuevo arch		    2638	jquery.tree.checkbox.js100%  
+	    Nuevo arch		    9637	jquery.tree.contextmenu.js100%  
+	    Nuevo arch		  114705	jquery.tree.js100%  
+	    Nuevo arch		     548	jquery.tree.metadata.js100%  
+	    Nuevo arch		    1642	menuIcons.css100%  
+	    Nuevo arch		    1866	NodeDefinition.js100%  
+	    Nuevo arch		   12897	sprites.png100%  
+	    Nuevo arch		    7307	sprites_ie6.gif100%  
+	    Nuevo arch		    2597	treeIcons.css100%  
+	    Nuevo arch		    3662	UmbracoContext.js100%  
+	    Nuevo arch		   55287	UmbracoTree.js100%  
+	   Nuevo dir       5	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	    Nuevo arch		      61	marker.gif100%  
+	    Nuevo arch		      62	marker_rtl.gif100%  
+	    Nuevo arch		      52	plus.gif100%  
+	    Nuevo arch		     720	remove.png100%  
+	    Nuevo arch		    3867	rename.png100%  
+	   Nuevo dir       4	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	    Nuevo arch		      43	dot_for_ie.gif100%  
+	    Nuevo arch		    6680	icons.png100%  
+	    Nuevo arch		    2435	style.css100%  
+	    Nuevo arch		    1844	throbber.gif100%  
+	   Nuevo dir      21	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	    Nuevo arch		    1600	arrows.png100%  
+	    Nuevo arch		    2910	check_0.png100%  
+	    Nuevo arch		    3197	check_1.png100%  
+	    Nuevo arch		    3283	check_2.png100%  
+	    Nuevo arch		      35	context.gif100%  
+	    Nuevo arch		      54	contextMenuBg.gif100%  
+	    Nuevo arch		    3329	create.png100%  
+	    Nuevo arch		      43	dot.gif100%  
+	    Nuevo arch		    3237	f.png100%  
+	    Nuevo arch		      60	fminus.gif100%  
+	    Nuevo arch		      59	fminus_rtl.gif100%  
+	    Nuevo arch		     108	fplus.gif100%  
+	    Nuevo arch		     108	fplus_rtl.gif100%  
+	    Nuevo arch		    6680	icons.png100%  
+	    Nuevo arch		      55	lastli.gif100%  
+	    Nuevo arch		      54	lastli_rtl.gif100%  
+	    Nuevo arch		      47	li.gif100%  
+	    Nuevo arch		     381	newVersion_overlay.png100%  
+	    Nuevo arch		     282	protect_overlay.gif100%  
+	    Nuevo arch		    5258	style.css100%  
+	    Nuevo arch		    1844	throbber.gif100%  
+	   Nuevo dir      14	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Ui\
+	    Nuevo arch		   52012	base2.js100%  
+	    Nuevo arch		    4482	dd.css100%  
+	    Nuevo arch		     138	dd_arrow.gif100%  
+	    Nuevo arch		   13659	default.css100%  
+	    Nuevo arch		    2324	default.js100%  
+	    Nuevo arch		    1423	jquery.alphanumeric.js100%  
+	    Nuevo arch		   51648	jquery.dd.js100%  
+	    Nuevo arch		   85582	jquery.js100%  
+	    Nuevo arch		    3581	jquery.tooltip.min.js100%  
+	    Nuevo arch		  240439	jqueryui.js 54%  100%  
+	    Nuevo arch		    1943	jQueryWresize.js100%  
+	    Nuevo arch		    3954	json2.js100%  
+	    Nuevo arch		   41412	knockout.js100%  
+	    Nuevo arch		    8687	knockout.mapping.js100%  
+	   Nuevo dir       1	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\
+	    Nuevo arch		   33967	jquery-ui.custom.css100%  
+	   Nuevo dir      14	C:\Users\123\OneDrive\Escritorio\InsumosApi\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\images\
+	    Nuevo arch		     260	ui-bg_diagonals-thick_18_b81900_40x40.png100%  
+	    Nuevo arch		     251	ui-bg_diagonals-thick_20_666666_40x40.png100%  
+	    Nuevo arch		     178	ui-bg_flat_10_000000_40x100.png100%  
+	    Nuevo arch		     104	ui-bg_glass_100_f6f6f6_1x400.png100%  
+	    Nuevo arch		     125	ui-bg_glass_100_fdf5ce_1x400.png100%  
+	    Nuevo arch		     105	ui-bg_glass_65_ffffff_1x400.png100%  
+	    Nuevo arch		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png100%  
+	    Nuevo arch		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png100%  
+	    Nuevo arch		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png100%  
+	    Nuevo arch		    4369	ui-icons_222222_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_228ef1_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_ef8c08_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_ffd27a_256x240.png100%  
+	    Nuevo arch		    4369	ui-icons_ffffff_256x240.png100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:       204       203         1         0         0         0
+ Archivos:       999       999         0         0         0         0
+    Bytes:    6.14 m    6.14 m         0         0         0         0
+   Tiempo:   0:00:03   0:00:02                       0:00:00   0:00:00
+
+
+Velocidad:           2,341,965 Bytes/s
+Velocidad:             134.008 Megabytes/min
+   Finalizado: mi‚rcoles, 22 de noviembre de 2023 17:33:33
+

@@ -6,12 +6,13 @@ namespace Infrastructure.Endpoint.Data
 {
     public interface ISqlDbConnection
     {
-        void CloseConnection();
-        SqlDataAdapter CreateDataApdapter(string query);
-        Task<DataTable> ExecuteQueryCommandAsync(string sql);
-        T GetDataRowValue<T>(DataRow row, string index, T defaultValue = default);
         void OpenConnection();
-
-       SqlCommand TraerConsulta(string sql);
+        void CloseConnection();
+        T GetDataRowValue<T>(DataRow row, string index, T defaultValue = default);
+        Task<DataTable> ExecuteQueryCommandAsync(SqlCommand sqlCommand);
+        Task<int> ExecuteNonQueryCommandAsync(SqlCommand command);
+        SqlCommand TraerConsulta(string sql);
+        int ExecuteNonQueryCommand(SqlCommand command);
+        Task<bool> RunTransactionAsync(params SqlCommand[] commands);
     }
 }

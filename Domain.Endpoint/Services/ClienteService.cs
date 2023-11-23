@@ -17,6 +17,8 @@ namespace Domain.Endpoint.Services
         }
 
 
+
+
         public Cliente CreateCliente(Cliente nuevoCliente)
         {
             Cliente newCliente = new Cliente()
@@ -45,16 +47,17 @@ namespace Domain.Endpoint.Services
         }
 
 
-
-        public Task<List<Cliente>> GetAll()
+        public async Task<List<Cliente>> GetAll()
         {
-            return _clienteRepository.Get();
+            return await _clienteRepository.Get();
         }
+
+
+
 
         public void UpdateCliente(Guid Id, Cliente nuevosRegistros)
         {
             _clienteRepository.UpdateCliente(Id, nuevosRegistros);
         }
-
     }
 }

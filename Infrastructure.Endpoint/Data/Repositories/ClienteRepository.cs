@@ -1,5 +1,7 @@
 ﻿using Domain.Endpoint.Entities;
 using Domain.Endpoint.Interfaces.Repositories;
+using Infrastructure.Endpoint.Builders;
+using Infrastructure.Endpoint.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,100 +12,37 @@ using System.Threading.Tasks;
 namespace Infrastructure.Endpoint.Data.Repositories
 {
     public class ClienteRepository : IClienteRepository
+
     {
         private readonly ISqlDbConnection _sqlDbConnection;
-        public ClienteRepository(ISqlDbConnection sqlDbConnection)
+        private readonly ISqlCommandOperationBuilder _operationBuilder;
+
+
+
+        public ClienteRepository(ISqlDbConnection sqlDbConnection, ISqlCommandOperationBuilder operationBuilder)
         {
             _sqlDbConnection = sqlDbConnection;
+            _operationBuilder = operationBuilder;
         }
+
+
 
         public void CreateCliente(Cliente nuevoCliente)
         {
+            SqlCommand writeCommand = _operationBuilder.From(nuevoCliente)
+                .WithOperation(SqlWriteOperation.Create)
+                .BuildWritter();
+            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
 
-            const string sqlQuery = "INSERT INTO TblCliente (IdCliente, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido," +
-                "Correo, Telefono, Estado, FechaCreacion) Values (@IdCliente, @PrimerNombre, @SegundoNombre, @PrimerApellido, @SegundoApellido," +
-                "@Correo, @Telefono, @Estado, @FechaCreacion)";
 
-            SqlCommand cmd = _sqlDbConnection.TraerConsulta(sqlQuery);
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    //_Valor del parametro
-                    ParameterName ="@IdCliente",
-                    SqlDbType = SqlDbType.UniqueIdentifier,
-                    Value = nuevoCliente.Id
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@PrimerNombre",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value =nuevoCliente.PrimerNombre
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@SegundoNombre",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevoCliente.SegundoNombre
-                },
-                  new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@PrimerApellido",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevoCliente.PrimerApellido
-                },
-                    new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@SegundoApellido",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevoCliente.SegundoApellido
-                },
-                      new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Correo",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevoCliente.Correo
-                },
-                        new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Telefono",
-                    SqlDbType =SqlDbType.Int,
-                    Value = nuevoCliente.Telefono
-                },
-                          new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Estado",
-                    SqlDbType =SqlDbType.Int,
-                    Value = nuevoCliente.Estado
-
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@FechaCreacion",
-                    SqlDbType =SqlDbType.DateTime,
-                    Value = nuevoCliente.FechaCreacion
-                }
-
-            };
-
-            cmd.Parameters.AddRange(parameters);
-            cmd.ExecuteNonQuery();
         }
+
 
         public void DeleteCliente(Guid Id)
         {
-            //Aqui haces una consulta donde comparas los ID
-            string delec = "DELETE FROM TblCliente WHERE IdCliente = @IdCliente";
-            SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delec);
+
+            string delete = "DELETE FROM TblCliente WHERE IdCliente = @IdCliente";
+            SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delete);
             SqlParameter parameter = new SqlParameter()
             {
                 Direction = ParameterDirection.Input,
@@ -115,115 +54,52 @@ namespace Infrastructure.Endpoint.Data.Repositories
             sqlCommand.ExecuteNonQuery();
         }
 
-        //Ver
+
+
         public async Task<List<Cliente>> Get()
         {
+            SqlCommand readCommand = _operationBuilder.Initialize<Cliente>()
+              .WithOperation(SqlReadOperation.Select)
+              .BuildReader();
+            DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
 
-            string query = "SELECT * FROM TblCliente;";
-            DataTable dataTable = await _sqlDbConnection.ExecuteQueryCommandAsync(query);
-            List<Cliente> Ct = dataTable.AsEnumerable().Select(MapEntityFromDataRow).ToList();
+            List<Cliente> cat = dt.AsEnumerable().Select(row =>
+            new Cliente
+            {
+                Id = row.Field<Guid>("IdCliente"),
+                PrimerNombre = row.Field<string>("PrimerNombre"),
+                SegundoNombre = row.Field<string>("SegundoNombre"),
+                PrimerApellido = row.Field<string>("PrimerApellido"),
+                SegundoApellido = row.Field<string>("SegundoApellido"),
+                Correo = row.Field<string>("Correo"),
+                Telefono = row.Field<string>("Telefono"),
+                Estado = row.Field<int>("Estado"),
+                FechaCreacion = row.Field<DateTime>("FechaCreacion"),
+            }).ToList();
 
-            return Ct;
-
+            return cat;
         }
 
-        public Cliente MapEntityFromDataRow(DataRow row)
+
+        /* public  async Task<Cliente> GetById(Guid Id)
+         {         
+             SqlCommand readCommand = _operationBuilder.Initialize<Cliente>()
+                   .WithOperation(SqlReadOperation.SelectById)
+                   .WithId(Id)
+                   .BuildReader();
+            return await  _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
+
+
+         }*/
+
+
+        public void UpdateCliente(Guid Id, Cliente nuevoClie)
         {
-            return new Cliente()
-            {
-                Id = _sqlDbConnection.GetDataRowValue<Guid>(row, "IdCliente"),
-                PrimerNombre = _sqlDbConnection.GetDataRowValue<string>(row, "PrimerNombre"),
-                SegundoNombre = _sqlDbConnection.GetDataRowValue<string>(row, "SegundoNombre"),
-                PrimerApellido = _sqlDbConnection.GetDataRowValue<string>(row, "PrimerApellido"),
-                SegundoApellido = _sqlDbConnection.GetDataRowValue<string>(row, "SegundoApellido"),
-                Correo = _sqlDbConnection.GetDataRowValue<string>(row, "Correo"),
-                Telefono = _sqlDbConnection.GetDataRowValue<int>(row, "Telefono"),
-                Estado = _sqlDbConnection.GetDataRowValue<int>(row, "Estado"),
-                FechaCreacion = _sqlDbConnection.GetDataRowValue<DateTime>(row, "FechaCreacion"),
 
-            };
-
-        }
-
-        public void UpdateCliente(Guid Id, Cliente nuevosRegistros)
-        {
-const string sqlQuery = "UPDATE TblCliente SET  PrimerNombre = @PrimerNombre, SegundoNombre = @SegundoNombre, PrimerApellido = @PrimerApellido, SegundoApellido = @SegundoApellido, Correo = @Correo, Telefono = @Telefono, Estado = @Estado, FechaCreacion = @FechaCreacion WHERE IdCliente = @IdCliente";
-
-            SqlCommand cmd = _sqlDbConnection.TraerConsulta(sqlQuery);
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-                 new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    //_Valor del parametro
-                    ParameterName ="@IdCliente",
-                    SqlDbType = SqlDbType.UniqueIdentifier,
-                    Value = nuevosRegistros.Id
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@PrimerNombre",
-                    SqlDbType =SqlDbType.NVarChar,
-                    Value =nuevosRegistros.PrimerNombre
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@SegundoNombre",
-                    SqlDbType =SqlDbType.NVarChar,
-                    Value = nuevosRegistros.SegundoNombre
-                },
-                  new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@PrimerApellido",
-                    SqlDbType =SqlDbType.NVarChar,
-                    Value = nuevosRegistros.PrimerApellido
-                },
-                    new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@SegundoApellido",
-                    SqlDbType =SqlDbType.NVarChar,
-                    Value = nuevosRegistros.SegundoApellido
-                },
-                      new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Correo",
-                    SqlDbType =SqlDbType.NVarChar,
-                    Value = nuevosRegistros.Correo
-                },
-                        new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Telefono",
-                    SqlDbType =SqlDbType.Int,
-                    Value = nuevosRegistros.Telefono
-                },
-                          new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Estado",
-                    SqlDbType =SqlDbType.Int,
-                    Value = nuevosRegistros.Estado
-
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@FechaCreacion",
-                    SqlDbType =SqlDbType.DateTime,
-                    Value = nuevosRegistros.FechaCreacion
-                }
-                  };
-
-            cmd.Parameters.AddRange(parameters);
-            cmd.ExecuteNonQuery();
+            SqlCommand writeCommand = _operationBuilder.From(nuevoClie)
+               .WithOperation(SqlWriteOperation.Update)
+               .BuildWritter();
+            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }
-
- 
-

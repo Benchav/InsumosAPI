@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,24 +44,32 @@
   <ItemGroup>
     <Compile Include="Entities\AuditableEntity.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\DtProducto.cs" />
+    <Compile Include="Entities\Inventario.cs" />
     <Compile Include="Entities\Producto.cs" />
-    <Compile Include="Entities\CatProducto.cs" />
+    <Compile Include="Entities\Cat.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Proveedor.cs" />
+    <Compile Include="Interfaces\Repositories\IDtProductoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IInventarioRepository.cs" />
     <Compile Include="Interfaces\Repositories\IProductoRepository.cs" />
-    <Compile Include="Interfaces\Repositories\ICatProductoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ICatRepository.cs" />
     <Compile Include="Interfaces\Repositories\IUserRepository.cs" />
     <Compile Include="Interfaces\Repositories\IClienteRepository.cs" />
     <Compile Include="Interfaces\Repositories\IProveedorRepository.cs" />
+    <Compile Include="Interfaces\Services\IDtProducto.cs" />
+    <Compile Include="Interfaces\Services\IInventario.cs" />
     <Compile Include="Interfaces\Services\IProductoService.cs" />
-    <Compile Include="Interfaces\Services\ICatProductoService.cs" />
+    <Compile Include="Interfaces\Services\ICatService.cs" />
     <Compile Include="Interfaces\Services\IUserService.cs" />
     <Compile Include="Interfaces\Services\IClienteService.cs" />
     <Compile Include="Interfaces\Services\IProveedorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DtProductoService.cs" />
+    <Compile Include="Services\InventarioService.cs" />
     <Compile Include="Services\ProductoService.cs" />
-    <Compile Include="Services\CatProductoService.cs" />
+    <Compile Include="Services\CatService.cs" />
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Services\ClienteService.cs" />
     <Compile Include="Services\ProveedorService.cs" />

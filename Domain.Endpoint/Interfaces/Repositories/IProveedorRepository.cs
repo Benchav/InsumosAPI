@@ -12,6 +12,7 @@ namespace Domain.Endpoint.Interfaces.Repositories
 
         void DeleteProveedor(Guid Id);
 
-        void UpdateProveedor(Guid Id, Proveedor nuevosRegistros);
+        void UpdateProveedor(Guid Id, Proveedor nuevoProv);
     }
 }
+

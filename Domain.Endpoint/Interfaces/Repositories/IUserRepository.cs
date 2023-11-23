@@ -14,7 +14,7 @@ namespace Domain.Endpoint.Interfaces.Repositories
 
         void DeleteUser(Guid Id);
 
-        void UpdateUser(Guid Id, User nuevosRegistros);
+        void UpdateUser(Guid Id, User nuevoUs);
 
     }
 

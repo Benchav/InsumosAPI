@@ -1,0 +1,71 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Iniciado : mi‚rcoles, 22 de noviembre de 2023 17:33:26
+   Origen : C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\Config\
+     Destino : C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\App_Data\NuGetBackup\20231122-173326\Config\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  18	C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\Config\
+	    Nuevo arch		     305	404handlers.config100%  
+	    Nuevo arch		     681	applications.config100%  
+	    Nuevo arch		     739	BaseRestExtensions.config100%  
+	    Nuevo arch		    3981	ClientDependency.config100%  
+	    Nuevo arch		    2957	Dashboard.config100%  
+	    Nuevo arch		    7088	EmbeddedMedia.config100%  
+	    Nuevo arch		    1261	ExamineIndex.config100%  
+	    Nuevo arch		    1834	ExamineSettings.config100%  
+	    Nuevo arch		     429	feedProxy.config100%  
+	    Nuevo arch		     286	FileSystemProviders.config100%  
+	    Nuevo arch		    1023	grid.editors.config.js100%  
+	    Nuevo arch		    1114	log4net.config100%  
+	    Nuevo arch		      72	metablogConfig.config100%  
+	    Nuevo arch		     837	scripting.config100%  
+	    Nuevo arch		   12446	tinyMceConfig.config100%  
+	    Nuevo arch		    5782	trees.config100%  
+	    Nuevo arch		    8784	umbracoSettings.config100%  
+	    Nuevo arch		     502	UrlRewriting.config100%  
+	   Nuevo dir       3	C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\Config\imageprocessor\
+	    Nuevo arch		     379	cache.config100%  
+	    Nuevo arch		    3968	processing.config100%  
+	    Nuevo arch		    1064	security.config100%  
+	   Nuevo dir      18	C:\Users\123\OneDrive\Escritorio\InsumosApi\Infrastructure.Endpoint\Config\Lang\
+	    Nuevo arch		      81	cs-CZ.user.xml100%  
+	    Nuevo arch		      79	da-DK.user.xml100%  
+	    Nuevo arch		      79	de-DE.user.xml100%  
+	    Nuevo arch		      79	en-GB.user.xml100%  
+	    Nuevo arch		      79	en-US.user.xml100%  
+	    Nuevo arch		      79	es-ES.user.xml100%  
+	    Nuevo arch		      79	fr-FR.user.xml100%  
+	    Nuevo arch		      82	he-IL.user.xml100%  
+	    Nuevo arch		      82	it-IT.user.xml100%  
+	    Nuevo arch		      79	ja-JP.user.xml100%  
+	    Nuevo arch		      82	ko-KR.user.xml100%  
+	    Nuevo arch		      82	nb-NO.user.xml100%  
+	    Nuevo arch		      79	nl-NL.user.xml100%  
+	    Nuevo arch		      82	pl-PL.user.xml100%  
+	    Nuevo arch		      82	pt-BR.user.xml100%  
+	    Nuevo arch		      79	ru-RU.user.xml100%  
+	    Nuevo arch		      82	sv-SE.user.xml100%  
+	    Nuevo arch		      78	zh-CN.user.xml100%  
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Director.:         3         2         1         0         0         0
+ Archivos:        39        39         0         0         0         0
+    Bytes:    55.6 k    55.6 k         0         0         0         0
+   Tiempo:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+Velocidad:           1,325,023 Bytes/s
+Velocidad:              75.818 Megabytes/min
+   Finalizado: mi‚rcoles, 22 de noviembre de 2023 17:33:26
+

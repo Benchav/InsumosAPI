@@ -1,5 +1,7 @@
 ﻿using Domain.Endpoint.Entities;
 using Domain.Endpoint.Interfaces.Repositories;
+using Infrastructure.Endpoint.Builders;
+using Infrastructure.Endpoint.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -13,71 +15,24 @@ namespace Infrastructure.Endpoint.Data.Repositories
     {
 
         private readonly ISqlDbConnection _sqlDbConnection;
-        public ProveedorRepository(ISqlDbConnection sqlDbConnection)
+        private readonly ISqlCommandOperationBuilder _operationBuilder;
+        public ProveedorRepository(ISqlDbConnection sqlDbConnection, ISqlCommandOperationBuilder operationBuilder)
         {
             _sqlDbConnection = sqlDbConnection;
+            _operationBuilder = operationBuilder;
         }
 
         public void CreateProveedor(Proveedor nuevoProveedor)
         {
-            const string sqlQuery = "INSERT INTO TblProveedor(IdProveedor, NombreCompañia, Correo, Telefono, Estado, FechaCreacion) Values (@IdProveedor, @NombreCompañia, @Correo, @Telefono, @Estado, @FechaCreacion)";
-
-            SqlCommand cmd = _sqlDbConnection.TraerConsulta(sqlQuery);
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    //_Valor del parametro
-                    ParameterName ="@IdProveedor",
-                    SqlDbType = SqlDbType.UniqueIdentifier,
-                    Value = nuevoProveedor.Id
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@NombreCompañia",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value =nuevoProveedor.NombreCompañia
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Correo",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevoProveedor.Correo
-                },
-                  new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Telefono",
-                    SqlDbType =SqlDbType.Int,
-                    Value = nuevoProveedor.Telefono
-                },
-                    new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Estado",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevoProveedor.Estado
-                },
-                      new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@FechaCreacion",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevoProveedor.FechaCreacion
-                }
-
-            };
-
-            cmd.Parameters.AddRange(parameters);
-            cmd.ExecuteNonQuery();
+            SqlCommand writeCommand = _operationBuilder.From(nuevoProveedor)
+               .WithOperation(SqlWriteOperation.Create)
+               .BuildWritter();
+            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
 
         public void DeleteProveedor(Guid Id)
         {
-            //Aqui haces una consulta donde comparas los ID
+
             string delec = "DELETE FROM TblProveedor WHERE IdProveedor = @IdProveedor";
             SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delec);
             SqlParameter parameter = new SqlParameter()
@@ -93,86 +48,33 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         public async Task<List<Proveedor>> Get()
         {
-            string query = "SELECT * FROM TblProveedor;";
-            DataTable dataTable = await _sqlDbConnection.ExecuteQueryCommandAsync(query);
-            List<Proveedor> Ctec = dataTable.AsEnumerable().Select(MapEntityFromDataRow).ToList();
+            SqlCommand readCommand = _operationBuilder.Initialize<Proveedor>()
+            .WithOperation(SqlReadOperation.Select)
+            .BuildReader();
+            DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
 
-            return Ctec;
+            List<Proveedor> cat = dt.AsEnumerable().Select(row =>
+            new Proveedor
+            {
+                Id = row.Field<Guid>("IdProveedor"),
+                NombreCompañia = row.Field<string>("NombreCompañia"),
+                Correo = row.Field<string>("Correo"),
+                Telefono = row.Field<int>("Telefono"),
+                Estado = row.Field<int>("Estado"),
+                FechaCreacion = row.Field<DateTime>("FechaCreacion"),
+            }).ToList();
+
+            return cat;
         }
 
-        public Proveedor MapEntityFromDataRow(DataRow row)
+
+
+        public void UpdateProveedor(Guid Id, Proveedor nuevoProv)
         {
-            return new Proveedor()
-            {
-                Id = _sqlDbConnection.GetDataRowValue<Guid>(row, "IdProveedor"),
-                NombreCompañia = _sqlDbConnection.GetDataRowValue<string>(row, "NombreCompañia"),
-                Correo = _sqlDbConnection.GetDataRowValue<string>(row, "Correo"),
-                Telefono = _sqlDbConnection.GetDataRowValue<int>(row, "Telefono"),
-                Estado = _sqlDbConnection.GetDataRowValue<int>(row, "Estado"),
-                FechaCreacion = _sqlDbConnection.GetDataRowValue<DateTime>(row, "FechaCreacion"),
-
-            };
-        }
-
-        public void UpdateProveedor(Guid Id, Proveedor nuevosRegistros)
-        {
-const string sqlQuery = "UPDATE TblProveedor SET  NombreCompañia = @NombreCompañia, Correo = @Correo, Telefono = @Telefono, FechaCreacion = @FechaCreacion WHERE IdProveedor = @IdProveedor";
-
-            SqlCommand cmd = _sqlDbConnection.TraerConsulta(sqlQuery);
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-              new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    //_Valor del parametro
-                    ParameterName ="@IdProveedor",
-                    SqlDbType = SqlDbType.UniqueIdentifier,
-                    Value =nuevosRegistros.Id
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@NombreCompañia",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value =nuevosRegistros.NombreCompañia
-                },
-                new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Correo",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevosRegistros.Correo
-                },
-                  new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Telefono",
-                    SqlDbType =SqlDbType.Int,
-                    Value = nuevosRegistros.Telefono
-                },
-                    new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@Estado",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevosRegistros.Estado
-                },
-                      new SqlParameter()
-                {
-                    Direction = ParameterDirection.Input,
-                    ParameterName ="@FechaCreacion",
-                    SqlDbType =SqlDbType.VarChar,
-                    Value = nuevosRegistros.FechaCreacion
-                }
-
-            };
-
-            cmd.Parameters.AddRange(parameters);
-            cmd.ExecuteNonQuery();
+            SqlCommand writeCommand = _operationBuilder.From(nuevoProv)
+                        .WithOperation(SqlWriteOperation.Update)
+                        .BuildWritter();
+            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }
-  
-
-
-
